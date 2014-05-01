@@ -1,0 +1,5 @@
+Notes
+
+- HTML5 local storage - for local databases, cookies for user authentification. Each w/set lifetimes.
+- Next week: Problem-solving final projects with one another.
+- They're open to meet individually for consultation re: final project, available outside of Saturdays.
