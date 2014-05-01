@@ -19,13 +19,6 @@ Object.defineProperty(Sun.prototype, 'overlappers', {
   }
 );
 
-Object.defineProperty(Sun.prototype, 'mass', {
-  // We don't want our Sun to grow/shrink, so we prevent the mass accessors from running, as well
-  get: function() { return this._mass; },
-  set: function () { }
-  }
-);
-
 Sun.prototype.simulate = function() {
   // During each step in the Space's simulate loop, the Sun searches for all other Blobs and adjusts their velocity, pulling them toward it
 
